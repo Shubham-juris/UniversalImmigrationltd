@@ -8,27 +8,27 @@ import PageImage4 from "../../assets/hero/pexels-joshsorenson-1716826.jpg";
 const PageHeroSection = () => {
   const coachingData = [
     {
-      title: "IELTS Courses",
+      title: "IELTS Coaching",
       description:
-        "Our IELTS coaching is designed to help students achieve their desired band scores through expert-led training, flexible schedules, and a focus on all four modules—listening, reading, writing, and speaking. We provide updated study materials, mock tests, and personalized feedback to boost your confidence and performance.",
+        "Achieve your target band score with our IELTS coaching designed for immigration, study, and work purposes. Learn with certified trainers, take regular mock tests, and receive personalized feedback on all four modules.",
       image: PageImage1,
     },
     {
-      title: "Citizenship Test",
+      title: "Citizenship Test Preparation",
       description:
-        "Prepare for your Citizenship Test with our structured coaching that covers essential topics like government systems, civic responsibilities, and national history. Our experienced instructors guide you through practice tests and key concepts to ensure you're ready with knowledge and confidence on exam day.",
+        "Get ready for your Canadian or U.S. citizenship test through expert-led classes covering government structure, civic duties, and national history. We offer practice exams and tips to ensure exam readiness.",
       image: PageImage2,
     },
     {
-      title: "TOFEL Coaching",
+      title: "TOEFL Training",
       description:
-        "Our TOEFL coaching program is designed to strengthen your skills in reading, listening, speaking, and writing. With focused practice tests, expert strategies, and individual guidance, we help you meet your academic or immigration goals with a higher score and improved confidence.",
+        "Our TOEFL training program focuses on enhancing your academic English skills for university admission abroad. Benefit from strategy-based sessions, practice tests, and expert guidance to achieve high scores.",
       image: PageImage3,
     },
     {
       title: "OET Coaching",
       description:
-        "Different types of programs, such as group classes, one-on-one sessions, or online courses. You can have each program displayed as a card or grid, each with a short description, pricing, and a CTA (call to action) button like Outline of the course structure, such as lessons on speaking, listening, reading.",
+        "Tailoblue for healthcare professionals, our OET coaching helps you build communication skills specific to medical settings. Prepare for all sub-tests with real-world role plays, writing samples, and expert evaluation.",
       image: PageImage4,
     },
   ];
@@ -48,12 +48,13 @@ const PageHeroSection = () => {
           </h1>
         </div>
       </div>
+
       <div className="bg-gray-100 py-16 px-4 md:px-12">
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {coachingData.map((item, index) => (
             <div
               key={index}
-              className="group rounded-2xl p-6 text-center shadow-md transform transition-all duration-300 hover:scale-105 bg-white text-black hover:bg-red-600 hover:text-white"
+              className="group rounded-2xl p-6 text-center shadow-md transform transition-all duration-300 hover:scale-105 bg-white text-black hover:bg-blue-600 hover:text-white"
             >
               <div className="relative w-28 h-28 mx-auto mb-4">
                 <img
@@ -62,13 +63,13 @@ const PageHeroSection = () => {
                   className="w-full h-full object-cover rounded-full"
                 />
               </div>
-
               <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
               <p className="text-sm leading-relaxed">{item.description}</p>
             </div>
           ))}
         </div>
       </div>
+
       <PageCourseCards />
     </>
   );

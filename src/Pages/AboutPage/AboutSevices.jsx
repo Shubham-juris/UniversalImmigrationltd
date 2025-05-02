@@ -7,7 +7,7 @@ const services = [
   {
     title: "Business Visa",
     description:
-      "Our Business Visa program provides tailored guidance for professionals and entrepreneurs planning to expand their ventures globally. With expert consultation on documentation.",
+      "Our Business Visa program provides tailoblue guidance for professionals and entrepreneurs planning to expand their ventures globally. With expert consultation on documentation.",
     image: BusinessVisa,
   },
   {
@@ -35,7 +35,7 @@ const AboutSevices = () => {
     <>
       <section className="py-16 bg-white text-center">
         <div className="max-w-7xl mx-auto px-4">
-          <p className="text-red-600 font-semibold text-sm uppercase mb-2">
+          <p className="text-blue-500 font-semibold text-sm uppercase mb-2">
             Service We Provide
           </p>
           <h2 className="text-4xl font-bold mb-10">
@@ -59,14 +59,14 @@ const AboutSevices = () => {
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-full h-40 object-cover rounded-md mt-4 bg-[#e4003a]"
+                  className="w-full h-40 object-cover rounded-md mt-4 bg-blue-500"
                 />
               </div>
             ))}
           </div>
         </div>
       </section>
-      <section className="bg-[#e4003a] text-white py-26 px-4">
+      <section className="bg-blue-500 text-white py-26 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="uppercase font-semibold tracking-widest text-sm">
@@ -85,19 +85,19 @@ const AboutSevices = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div className="flex flex-col items-center text-center py-6 px-4 rounded-lg shadow">
-              <div className="bg-white text-[#e4003a] rounded-full p-4 mb-4 text-2xl"></div>
+              <div className="bg-white text-blue-500 rounded-full p-4 mb-4 text-2xl"></div>
               <h3 className="text-3xl font-bold">35+</h3>
               <p className="mt-1 text-sm">Countries Represented</p>
             </div>
 
             <div className="flex flex-col items-center text-center py-6 px-4 rounded-lg shadow">
-              <div className="bg-white text-[#e4003a] rounded-full p-4 mb-4 text-2xl"></div>
+              <div className="bg-white text-blue-500 rounded-full p-4 mb-4 text-2xl"></div>
               <h3 className="text-3xl font-bold">25K+</h3>
               <p className="mt-1 text-sm">Visa Delivery</p>
             </div>
 
             <div className="flex flex-col items-center text-center py-6 px-4 rounded-lg shadow">
-              <div className="bg-white text-[#e4003a] rounded-full p-4 mb-4 text-2xl"></div>
+              <div className="bg-white text-blue-500 rounded-full p-4 mb-4 text-2xl"></div>
               <h3 className="text-3xl font-bold">99%</h3>
               <p className="mt-1 text-sm">Success Rate</p>
             </div>

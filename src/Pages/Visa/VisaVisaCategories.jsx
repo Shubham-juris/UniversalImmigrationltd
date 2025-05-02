@@ -14,7 +14,7 @@ const VisaVisaCategories = () => {
       <div className="w-full max-w-7xl">
         <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-12 text-center md:text-left">
           <div className="mb-6 md:mb-0 md:w-1/2">
-            <p className="text-red-600 uppercase font-semibold tracking-wide">
+            <p className="text-blue-500 uppercase font-semibold tracking-wide">
               Visa Categories
             </p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mt-2">
@@ -33,9 +33,9 @@ const VisaVisaCategories = () => {
           {visaServices.map((visa, index) => (
             <div
               key={index}
-              className="bg-white hover:bg-red-600  shadow-md rounded-md py-8 flex flex-col items-center justify-center hover:shadow-lg transition-shadow duration-300 text-center"
+              className="bg-white hover:bg-blue-500  shadow-md rounded-md py-8 flex flex-col items-center justify-center hover:shadow-lg transition-shadow duration-300 text-center"
             >
-              <div className="text-4xl mb-4 text-red-600">{visa.icon}</div>
+              <div className="text-4xl mb-4 text-blue-500">{visa.icon}</div>
               <h4 className="font-semibold text-lg ">{visa.title}</h4>
             </div>
           ))}
@@ -46,7 +46,7 @@ const VisaVisaCategories = () => {
           <span className="text-black font-normal ml-2">
             View More Services
           </span>
-          <button className="ml-2 w-6 h-6 rounded-full bg-red-600 text-white font-bold">
+          <button className="ml-2 w-6 h-6 rounded-full bg-blue-500 text-white font-bold">
             +
           </button>
         </div>

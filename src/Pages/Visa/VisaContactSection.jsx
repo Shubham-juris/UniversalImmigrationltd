@@ -6,7 +6,7 @@ const VisaContactSection = () => {
       <div className="max-w-7xl w-full flex flex-col lg:flex-row gap-10">
         <div className="w-full lg:w-1/2 p-6 bg-white shadow-md rounded-md">
           <div className="max-w-xl mx-auto">
-            <p className="uppercase font-semibold tracking-wider text-center lg:text-left text-red-600">
+            <p className="uppercase font-semibold tracking-wider text-center lg:text-left text-blue-500">
               Contact Us
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center lg:text-left">
@@ -49,7 +49,7 @@ const VisaContactSection = () => {
 
               <button
                 type="submit"
-                className="bg-black hover:bg-red-600 transition-colors text-white px-6 py-3 rounded-md font-semibold flex items-center justify-center gap-2"
+                className="bg-black hover:bg-blue-500 transition-colors text-white px-6 py-3 rounded-md font-semibold flex items-center justify-center gap-2"
               >
                 Send Us Message <span className="text-xl">→</span>
               </button>

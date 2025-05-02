@@ -1,25 +1,28 @@
 import { FaFacebookF, FaTwitter, FaVimeoV, FaLinkedinIn } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import logo from '../../assets/hero/logo.png';
 
 const Footer = () => {
   return (
     <footer className="bg-[#15161a] text-white py-16">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-center md:text-left">
-        
+
         {/* Logo and Description */}
         <div>
           <div className="flex justify-center md:justify-start items-center mb-4">
-            <NavLink to="/" className="flex items-center space-x-2">
-              <span className="text-red-600 text-2xl">🌐</span>
+            <NavLink to="/" className="flex items-center space-x-3">
+              <img
+                src={logo}
+                alt="Universal Immigration Logo"
+                className="h-10 w-auto object-contain"
+              />
               <h1 className="text-xl font-bold">
-                Walshken<span className="text-red-600">Immigration</span>
+                Universal<span className="text-blue-500">Immigration</span>
               </h1>
             </NavLink>
           </div>
           <p className="text-gray-400 mb-6">
-            Your trusted partner for IELTS, TOEFL, PTE coaching & Citizenship
-            Test preparation, guiding you every step of the way to global
-            success.
+            Empowering your global dreams with trusted immigration solutions for study, work, and permanent residency in Canada, Australia, the UK, and beyond.
           </p>
 
           {/* Social Icons */}
@@ -46,10 +49,16 @@ const Footer = () => {
 
         {/* Services */}
         <div>
-          <h2 className="text-lg font-bold mb-4">Services</h2>
+          <h2 className="text-lg font-bold mb-4">Immigration Services</h2>
           <ul className="space-y-3 text-gray-400">
-            {["Canada Visa", "Japan Visa", "Spain Visa", "Germany Visa", "Italy Visa"].map((service, index) => (
-              <li key={index} className="flex justify-center md:justify-start items-center space-x-2 hover:text-red-600 cursor-pointer">
+            {[
+              "Canada PR & Express Entry",
+              "Study Visa Assistance",
+              "Work Permit Solutions",
+              "Tourist & Visitor Visas",
+              "Citizenship Applications"
+            ].map((service, index) => (
+              <li key={index} className="flex justify-center md:justify-start items-center space-x-2 hover:text-blue-500 cursor-pointer">
                 <span>»</span>
                 <span>{service}</span>
               </li>
@@ -59,31 +68,32 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div>
-          <h2 className="text-lg font-bold mb-4">Contact</h2>
+          <h2 className="text-lg font-bold mb-4">Contact Us</h2>
           <p className="text-gray-400 mb-2">
-            Phone: <br /> +1 718-904-4450
+            Phone: <br /> +1 (800) 123-4567
           </p>
           <p className="text-gray-400 mb-2">
-            Email: <br /> info@visaland.com
+            Email: <br /> support@universalimmigration.com
           </p>
           <p className="text-gray-400">
             Address: <br />
-            123 Main St, City, Country
+            456 Global Avenue, Suite 210<br />
+            Toronto, ON, Canada
           </p>
         </div>
 
         {/* Newsletter */}
         <div>
-          <h2 className="text-lg font-bold mb-4">Newsletters</h2>
+          <h2 className="text-lg font-bold mb-4">Subscribe to Updates</h2>
           <p className="text-gray-400 mb-4">
-            Sign Up For News & Get 30% Off Your Next Course.
+            Get the latest updates on visa news, immigration changes, and program openings.
           </p>
           <input
             type="email"
             placeholder="Your Email Address"
             className="w-full px-4 py-3 rounded bg-gray-100 text-black mb-4 focus:outline-none"
           />
-          <button className="w-full py-3 bg-red-600 hover:bg-red-700 rounded font-semibold">
+          <button className="w-full py-3 bg-blue-500 hover:bg-blue-600 rounded font-semibold">
             Subscribe Now
           </button>
         </div>

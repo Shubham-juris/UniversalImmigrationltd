@@ -105,7 +105,7 @@ const Blog = () => {
                     alt={post.title}
                     className="w-full h-60 object-cover"
                   />
-                  <div className="absolute top-3 left-3 bg-red-600 text-white px-3 py-1 text-center rounded">
+                  <div className="absolute top-3 left-3 bg-blue-500 text-white px-3 py-1 text-center rounded">
                     <p className="text-lg font-bold leading-none">
                       {post.date.split(" ")[0]}
                     </p>
@@ -124,7 +124,7 @@ const Blog = () => {
                   <p className="text-gray-600 mb-4">{post.excerpt}</p>
                   <a
                     href="#"
-                    className="text-red-600 font-semibold inline-flex items-center hover:underline"
+                    className="text-blue-500 font-semibold inline-flex items-center hover:underline"
                   >
                     Read More <span className="ml-1">➜</span>
                   </a>

@@ -6,27 +6,27 @@ import pageImage4 from "../../assets/hero/pexels-vlada-karpovich-7368310.jpg";
 
 const coachingData = [
   {
-    title: "IELTS Courses",
+    title: "IELTS Coaching",
     description:
-      "Our IELTS courses are designed to help students improve their listening, reading, writing, and speaking skills, with flexible schedules, expert instructors, and personalized practice materials to ensure high band scores.",
+      "Master all four modules — Listening, Reading, Writing, and Speaking — with our expert-led IELTS classes. Ideal for immigration, study abroad, or work visas, our program boosts your chances of scoring 7+ bands.",
     image: pageImage1,
   },
   {
-    title: "Citizenship Test",
+    title: "Citizenship Test Preparation",
     description:
-      "Prepare for your Citizenship Test with our comprehensive course covering all key topics, including government structure, rights and responsibilities, and Canadian/U.S. history, taught by experienced instructors to boost your confidence and success.",
+      "Get fully prepablue for your Canadian or U.S. Citizenship Test with detailed lessons on government, rights, responsibilities, and history. Our practice tests and coaching ensure you're confident on test day.",
     image: pageImage2,
   },
   {
-    title: "TOEFL Coaching",
+    title: "TOEFL Training",
     description:
-      "Our TOEFL coaching program offers expert guidance in reading, listening, speaking, and writing, with personalized strategies, mock tests, and targeted practice to help you achieve top scores and meet your academic goals.",
+      "Our TOEFL program is designed for students seeking academic admission abroad. We focus on test-taking strategies and English fluency to help you score high and meet university language requirements.",
     image: pageImage3,
   },
   {
-    title: "OET Coaching",
+    title: "OET Coaching for Healthcare Professionals",
     description:
-      "Our OET coaching is tailored for healthcare professionals, focusing on the language skills needed for success in real workplace scenarios, with expert trainers, role-play practice, and test-specific strategies for all four sub-tests.",
+      "Designed for doctors, nurses, and healthcare workers aiming to work overseas, our OET coaching includes role-plays, writing corrections, and clinical communication practice tailoblue for global settings.",
     image: pageImage4,
   },
 ];
@@ -54,7 +54,7 @@ const PageCourseCards = () => {
               <p className="text-gray-600 text-sm mb-4">{item.description}</p>
               <a
                 href="#"
-                className="text-red-600 font-semibold flex items-center hover:underline"
+                className="text-blue-500 font-semibold flex items-center hover:underline"
               >
                 Read More <span className="ml-1 text-lg">➜</span>
               </a>
