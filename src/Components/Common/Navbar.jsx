@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { FaAngleDown, FaAngleRight, FaBars } from "react-icons/fa";
-
+import logo from "../../assets/hero/logo.png"
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
@@ -19,12 +19,17 @@ const Navbar = () => {
     <header className="bg-white shadow-md py-4 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
-        <NavLink to="/" className="flex items-center space-x-2">
-          <span className="text-red-600 text-2xl">🌐</span>
-          <h1 className="text-xl font-bold">
-            Walshken<span className="text-red-600">Immigration</span>
-          </h1>
-        </NavLink>
+        <NavLink to="/" className="flex items-center space-x-3">
+  <img
+    src={logo}
+    alt="Walshken Immigration Logo"
+    className="h-10 w-auto object-contain"
+  />
+  <h1 className="text-xl font-bold">
+    Universal<span className="text-blue-500">Immigration</span>
+  </h1>
+</NavLink>
+
 
         {/* Desktop Menu */}
         <nav className="hidden lg:flex space-x-6 items-center">
@@ -34,8 +39,8 @@ const Navbar = () => {
                 to={item.path}
                 className={({ isActive }) =>
                   `text-sm font-medium ${
-                    isActive ? "text-red-600 font-semibold" : "text-black"
-                  } hover:text-red-600`
+                    isActive ? "text-blue-500 font-semibold" : "text-black"
+                  } hover:text-blue-500`
                 }
               >
                 {item.label}
@@ -49,7 +54,7 @@ const Navbar = () => {
           {/* Get A Quote - Only show on large screens */}
           <button
             onClick={() => navigate("/contact")}
-            className="hidden lg:flex bg-red-600 hover:bg-gray-700 text-white font-semibold text-sm px-5 py-3 rounded-md items-center space-x-2"
+            className="hidden lg:flex bg-blue-500 hover:bg-gray-700 text-white font-semibold text-sm px-5 py-3 rounded-md items-center space-x-2"
           >
             <span>Get A Quote</span>
           </button>
@@ -73,8 +78,8 @@ const Navbar = () => {
               to={item.path}
               className={({ isActive }) =>
                 `block py-2 border-b text-sm ${
-                  isActive ? "text-red-600 font-semibold" : "text-gray-800"
-                } hover:text-red-600`
+                  isActive ? "text-blue-500 font-semibold" : "text-gray-800"
+                } hover:text-blue-500`
               }
               onClick={() => setMenuOpen(false)}
             >

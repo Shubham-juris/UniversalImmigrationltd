@@ -26,7 +26,7 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto py-16 px-4 grid md:grid-cols-2 gap-10">
         <div className="flex flex-col justify-center">
-          <h4 className="text-red-600 font-bold uppercase">Get in Touch</h4>
+          <h4 className="text-blue-500 font-bold uppercase">Get in Touch</h4>
           <h2 className="text-4xl font-bold text-gray-900 mb-6">Contact Us</h2>
           <p className="text-gray-600 mb-8">
             We denounce with righteous indignation...
@@ -34,29 +34,29 @@ const Contact = () => {
 
           <div className="space-y-6">
             <div className="flex items-start space-x-4">
-              <FaPhoneAlt className="text-red-600 text-xl mt-1" />
+              <FaPhoneAlt className="text-blue-500 text-xl mt-1" />
               <div>
-                <p className="text-sm text-red-600">Call For Inquiry</p>
+                <p className="text-sm text-blue-500">Call For Inquiry</p>
                 <p className="text-lg font-semibold text-gray-900">
                   +236 (456) 896 22
                 </p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
-              <FaEnvelope className="text-red-600 text-xl mt-1" />
+              <FaEnvelope className="text-blue-500 text-xl mt-1" />
               <div>
-                <p className="text-sm text-red-600">Send Us Email</p>
+                <p className="text-sm text-blue-500">Send Us Email</p>
                 <p className="text-lg font-semibold text-gray-900">
-                  info@example.com
+                  support@universalimmigration.com
                 </p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
-              <FaMapMarkerAlt className="text-red-600 text-xl mt-1" />
+              <FaMapMarkerAlt className="text-blue-500 text-xl mt-1" />
               <div>
-                <p className="text-sm text-red-600">Location</p>
+                <p className="text-sm text-blue-500">Location</p>
                 <p className="text-lg font-semibold text-gray-900">
-                  734 H, Bryan Burlington, NC 27215
+                  456 Global Avenue Suite 210 Toronto ON Canada
                 </p>
               </div>
             </div>
@@ -73,8 +73,8 @@ const Contact = () => {
             Fill Up The Form
           </h3>
           <p className="text-gray-600 text-sm mb-6">
-            Your email address will not be published. Required fields are marked{" "}
-            <span className="text-red-600">*</span>
+            Your email address will not be published. Requiblue fields are marked{" "}
+            <span className="text-blue-500">*</span>
           </p>
 
           <form className="space-y-4">
@@ -85,7 +85,7 @@ const Contact = () => {
                   type="text"
                   placeholder="Your Name*"
                   className="w-full outline-none text-sm"
-                  required
+                  requiblue
                 />
               </div>
               <div className="flex items-center w-full border rounded px-3 py-2">
@@ -94,7 +94,7 @@ const Contact = () => {
                   type="email"
                   placeholder="Your Email*"
                   className="w-full outline-none text-sm"
-                  required
+                  requiblue
                 />
               </div>
             </div>
@@ -112,7 +112,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="bg-red-600 text-white font-semibold px-6 py-3 rounded-md flex items-center hover:bg-red-700 transition"
+              className="bg-blue-500 text-white font-semibold px-6 py-3 rounded-md flex items-center hover:bg-blue-700 transition"
             >
               Send Us Message <FaPaperPlane className="ml-2" />
             </button>
@@ -123,7 +123,7 @@ const Contact = () => {
       <div className="w-full h-[500px] mt-16">
         <iframe
           title="Google Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19800.378012819758!2d-0.1415877!3d51.5154196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b333cf6beef%3A0x1c5d6f3e7f8a1b62!2sLondon%2C%20UK!5e0!3m2!1sen!2sin!4v1616171900134!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19800.378012819758!2d-0.1415877!3d51.5154196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b333cf6beef%3A0x1c5d6f3e7f8a1b62!2sCanada%2C%20UK!5e0!3m2!1sen!2sin!4v1616171900134!5m2!1sen!2sin"
           width="100%"
           height="100%"
           className="border-0 w-full h-full"
