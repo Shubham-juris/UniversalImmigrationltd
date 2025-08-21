@@ -7,25 +7,25 @@ const services = [
   {
     title: "Business Visa",
     description:
-      "Our Business Visa program provides tailoblue guidance for professionals and entrepreneurs planning to expand their ventures globally. With expert consultation on documentation.",
+      "Our Business Visa program offers tailored guidance for professionals and entrepreneurs planning to expand their ventures globally. We provide expert consultation on documentation, compliance, and smooth processing to help you achieve your international business goals.",
     image: BusinessVisa,
   },
   {
     title: "Student Visa",
     description:
-      "Our Student Visa guidance program is designed to help students successfully apply for study abroad opportunities.    for a smooth transition to your dream education destination.",
+      "Our Student Visa guidance program is designed to help students successfully apply for study abroad opportunities. We ensure a hassle-free process, offering personalized support for university applications, documentation, and a smooth transition to your dream education destination.",
     image: Studentvisa,
   },
   {
     title: "Work Visa",
     description:
-      "Our Work Visa support program helps professionals navigate the application process with ease. We provide personalized assistance for job , documentation, interview preparation.",
+      "Our Work Visa support program assists professionals in navigating complex application procedures. From job documentation to interview preparation, we provide end-to-end assistance, ensuring you secure the right opportunity abroad with ease.",
     image: WorkVisa,
   },
   {
     title: "Tourist Visa",
     description:
-      "Planning a vacation abroad? Our Tourist Visa service ensures  documentation to travel tips nsures you have everything in place—from documentation to travel tips",
+      "Planning a vacation abroad? Our Tourist Visa services ensure all your documentation is in place — from application support to travel tips — so you can enjoy a stress-free and memorable travel experience.",
     image: TouristVisa,
   },
 ];
@@ -69,15 +69,15 @@ const AboutSevices = () => {
       <section className="bg-blue-500 text-white py-26 px-4">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div>
-            <p className="uppercase font-semibold tracking-widest text-sm">
-              5M+ Trusted Our Clients
-            </p>
             <h2 className="text-4xl md:text-5xl font-extrabold mt-2 leading-tight">
-              Most Experienced <br /> Our Services
+              Trusted Experienced <br /> Universal Immigration.
             </h2>
             <p className="text-base mt-4 mb-8 max-w-md">
-              Transmds is the world’s driving worldwide exchange the worldwide
-              trade of
+              For over 4 years, Universal Immigration has been guiding thousands
+              of students, professionals, and families towards their global
+              dreams. With a client-first approach and certified experts, we
+              deliver transparent, reliable, and successful immigration
+              solutions.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">

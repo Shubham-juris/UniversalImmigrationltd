@@ -12,7 +12,7 @@ const Hero = () => {
         }}
       >
         <div className="absolute inset-0 bg-black/60"></div>
-        <div className="relative z-10 text-center px-4 sm:px-8 max-w-2xl">
+        <div className="relative z-10 text-center px-4 sm:px-8 max-w-6xl">
           <p className="text-lg font-semibold mb-4 tracking-wide text-blue-500">
             EXPERT IMMIGRATION & VISA SOLUTIONS
           </p>
@@ -20,8 +20,9 @@ const Hero = () => {
             Unlock Your Global Future with Universal Immigration
           </h1>
           <p className="mt-4 text-lg text-gray-200">
-            Study, work, visit, or settle abroad — your dream is our mission. We
-            simplify complex immigration processes with expert guidance.
+            Study, work, travel, or settle abroad — your dream is our mission.
+            With expert consultation and end-to-end visa support, we make
+            immigration simple and stress-fre
           </p>
         </div>
       </div>
@@ -38,11 +39,11 @@ const Hero = () => {
         </p>
         <div className="flex flex-wrap justify-center gap-6">
           {[
-            "Certified Immigration Experts",
-            "99% Visa Approval Success",
-            "Transparent Process",
-            "Affordable Fees",
-            "Real-Time Case Tracking",
+            "👨‍🎓 Certified Immigration Experts – Guidance you can trust.",
+            "🏆 99% Visa Approval Success – A track record of results.",
+            "🔍 Transparent Process – No hidden steps or surprises.",
+            "💰 Affordable Fees – Quality services at the right price.",
+            "⏱ Real-Time Case Tracking – Stay updated at every stage.",
           ].map((item, index) => (
             <div
               key={index}

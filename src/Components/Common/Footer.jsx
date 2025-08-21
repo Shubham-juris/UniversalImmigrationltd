@@ -74,7 +74,7 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-bold mb-4">Contact Us</h2>
           <p className="text-gray-400 mb-2">
-            Phone: <br /> +917087107698
+            Phone: <br /> +91 7087107698
           </p>
           <p className="text-gray-400 mb-2">
             Email: <br /> support@universalimmigration.com
@@ -92,14 +92,20 @@ const Footer = () => {
             Get the latest updates on visa news, immigration changes, and
             program openings.
           </p>
-          <input
-            type="email"
-            placeholder="Your Email Address"
-            className="w-full px-4 py-3 rounded bg-gray-100 text-black mb-4 focus:outline-none"
-          />
-          <button className="w-full py-3 bg-blue-500 hover:bg-blue-600 rounded font-semibold">
-            Subscribe Now
-          </button>
+          <form>
+            <input
+              required
+              type="email"
+              placeholder="Your Email Address"
+              className="w-full px-4 py-3 rounded bg-gray-100 text-black mb-4 focus:outline-none"
+            />
+            <button
+              type="submit"
+              className="w-full py-3 bg-blue-500 hover:bg-blue-600 rounded font-semibold"
+            >
+              Subscribe Now
+            </button>
+          </form>
         </div>
       </div>
     </footer>

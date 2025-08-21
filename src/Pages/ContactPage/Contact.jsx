@@ -40,7 +40,7 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-blue-500">Call For Inquiry</p>
                 <p className="text-lg font-semibold text-gray-900">
-                  +917087107698
+                  +91 7087107698
                 </p>
               </div>
             </div>
@@ -79,6 +79,7 @@ const Contact = () => {
               <div className="flex items-center w-full border rounded px-3 py-2">
                 <FaUser className="text-gray-400 mr-2" />
                 <input
+                  required
                   type="text"
                   placeholder="Your Name*"
                   className="w-full outline-none text-sm"
@@ -88,6 +89,7 @@ const Contact = () => {
               <div className="flex items-center w-full border rounded px-3 py-2">
                 <FaEnvelope className="text-gray-400 mr-2" />
                 <input
+                  required
                   type="email"
                   placeholder="Your Email*"
                   className="w-full outline-none text-sm"

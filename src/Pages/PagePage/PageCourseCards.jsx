@@ -8,13 +8,13 @@ const coachingData = [
   {
     title: "IELTS Coaching",
     description:
-      "Master all four modules — Listening, Reading, Writing, and Speaking — with our expert-led IELTS classes. Ideal for immigration, study abroad, or work visas, our program boosts your chances of scoring 7+ bands.",
+      "Achieve your target band score with our IELTS coaching designed for immigration, study, and work purposes. Learn with certified trainers, take regular mock tests, and receive personalized feedback on all four modules.",
     image: pageImage1,
   },
   {
     title: "Citizenship Test Preparation",
     description:
-      "Get fully prepablue for your Canadian or U.S. Citizenship Test with detailed lessons on government, rights, responsibilities, and history. Our practice tests and coaching ensure you're confident on test day.",
+      "Get fully prepared for your Canadian or U.S. Citizenship Test with detailed lessons on government, rights, responsibilities, and history. Our practice tests and coaching ensure you're confident on test day.",
     image: pageImage2,
   },
   {
@@ -26,7 +26,7 @@ const coachingData = [
   {
     title: "OET Coaching for Healthcare Professionals",
     description:
-      "Designed for doctors, nurses, and healthcare workers aiming to work overseas, our OET coaching includes role-plays, writing corrections, and clinical communication practice tailoblue for global settings.",
+      "Designed for doctors, nurses, and healthcare workers aiming to work overseas, our OET coaching includes role-plays, writing corrections, and clinical communication practice tailored for global settings.",
     image: pageImage4,
   },
 ];
@@ -52,12 +52,6 @@ const PageCourseCards = () => {
                 {item.title}
               </h3>
               <p className="text-gray-600 text-sm mb-4">{item.description}</p>
-              <a
-                href="#"
-                className="text-blue-500 font-semibold flex items-center hover:underline"
-              >
-                Read More <span className="ml-1 text-lg">➜</span>
-              </a>
             </div>
           </div>
         ))}

@@ -23,9 +23,11 @@ const VisaVisaCategories = () => {
           </div>
 
           <div className="md:w-1/2 text-gray-600 text-sm sm:text-base lg:text-lg leading-relaxed">
-            Transmds is the world’s leading global logistics provider supporting
-            industries and trade for the international exchange of merchandise.
-            Tempor incididunt ut labore et dolore magna aliqua.
+            Universal Immigration is your trusted partner for all types of visa
+            and immigration needs. We specialize in providing end-to-end support
+            — from application guidance to documentation and interview
+            preparation — ensuring a smooth and stress-free process for our
+            clients worldwide.
           </div>
         </div>
 
@@ -37,6 +39,7 @@ const VisaVisaCategories = () => {
             >
               <div className="text-4xl mb-4 text-blue-500">{visa.icon}</div>
               <h4 className="font-semibold text-lg ">{visa.title}</h4>
+            
             </div>
           ))}
         </div>
@@ -44,11 +47,8 @@ const VisaVisaCategories = () => {
         <div className="text-center font-semibold text-sm sm:text-base lg:text-lg">
           Bring Them Together And You Overcome The Ordinary.
           <span className="text-black font-normal ml-2">
-            View More Services
+            because your dreams deserve the right direction.
           </span>
-          <button className="ml-2 w-6 h-6 rounded-full bg-blue-500 text-white font-bold">
-            +
-          </button>
         </div>
       </div>
     </div>

@@ -14,27 +14,27 @@ import PageImage4 from "../../assets/hero/pexels-joshsorenson-1716826.jpg";
 const HomeCoursesSection = () => {
   const services = [
     {
-      title: "Student Visa",
+      title: "📘 Student Visa",
       description:
-        "Universal Immigration provides tailoblue student visa services, helping applicants navigate admission requirements, visa documentation, and interview preparation to study abroad in Canada, UK, USA, and more.",
+        "Universal Immigration provides tailored student visa services, helping applicants navigate admission requirements, visa documentation, and interview preparation to study abroad in Canada, UK, USA, and more.",
       image: heroBgImage,
     },
     {
-      title: "Work Permit Visa",
+      title: "💼 Work Permit Visa",
       description:
-        "Our work visa consultants assist in securing employment-based visas, ensuring your application meets all legal standards and increases your chances of international job placement.",
+        "Our expert consultants assist in securing employment-based visas, ensuring your application complies with all legal standards while boosting your chances of international job placement and career growth.",
       image: heroBgImage1,
     },
     {
-      title: "Permanent Residency",
+      title: " 🏠 Permanent Residency",
       description:
-        "From Express Entry to Family Sponsorship and Provincial Nominee Programs, we guide you through the entire PR process, making your immigration journey smooth and stress-free.",
+        "From Express Entry to Family Sponsorship and Provincial Nominee Programs, we guide you through the entire PR process, making your immigration journey smooth, stress-free, and successful.",
       image: heroBgImage2,
     },
     {
-      title: "Tourist & Visitor Visa",
+      title: "✈️ Tourist & Visitor Visa",
       description:
-        "We simplify the tourist visa application process, from documentation to travel history guidance, ensuring your trip is hassle-free and approved quickly.",
+        "We simplify the tourist visa application process, from documentation to travel history guidance, ensuring your trip is approved quickly and your journey remains hassle-free and memorable.",
       image: heroBgImage3,
     },
   ];
@@ -74,13 +74,13 @@ const HomeCoursesSection = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="flex items-start bg-white p-6 rounded-xl shadow-md hover:bg-blue-500 transition-colors duration-300 group"
+              className="flex items-start bg-white p-6 rounded-xl shadow-md hover:bg-blue-400 transition-colors duration-300 group"
             >
-              <div className="min-w-[96px] w-24 h-24 mr-6">
+              <div className="min-w-[196px] w-24 h-64 mr-6">
                 <img
                   src={service.image}
                   alt={service.title}
-                  className="w-32 h-32 rounded-full object-cover"
+                  className="rounded-xl w-52 h-[265px] object-cover"
                 />
               </div>
               <div className="flex-1">
