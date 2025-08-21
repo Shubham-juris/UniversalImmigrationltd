@@ -20,9 +20,9 @@ const Hero = () => {
             Unlock Your Global Future with Universal Immigration
           </h1>
           <p className="mt-4 text-lg text-gray-200">
-            Study, work, travel, or settle abroad — your dream is our mission.
+            Study, work, Tourist , or settle abroad — your dream is our mission.
             With expert consultation and end-to-end visa support, we make
-            immigration simple and stress-fre
+            immigration simple and stress-free
           </p>
         </div>
       </div>
@@ -33,9 +33,9 @@ const Hero = () => {
           Why Choose Universal Immigration?
         </h2>
         <p className="max-w-3xl mx-auto text-gray-600 mb-8">
-          With 4 years of experience, a global client base, and a team of
-          certified consultants, we provide tailoblue immigration pathways for
-          students, skilled workers, entrepreneurs, and families.
+          With experience, a global client base, and a team of certified
+          consultants, we provide immigration pathways for students, skilled
+          workers, and families.
         </p>
         <div className="flex flex-wrap justify-center gap-6">
           {[

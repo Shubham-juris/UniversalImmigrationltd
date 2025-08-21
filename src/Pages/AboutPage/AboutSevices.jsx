@@ -73,11 +73,10 @@ const AboutSevices = () => {
               Trusted Experienced <br /> Universal Immigration.
             </h2>
             <p className="text-base mt-4 mb-8 max-w-md">
-              For over 4 years, Universal Immigration has been guiding thousands
-              of students, professionals, and families towards their global
-              dreams. With a client-first approach and certified experts, we
-              deliver transparent, reliable, and successful immigration
-              solutions.
+              Universal Immigration has been guiding thousands of students,
+              professionals, and families towards their global dreams. With a
+              client-first approach and certified experts, we deliver
+              transparent, reliable, and successful immigration solutions.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
