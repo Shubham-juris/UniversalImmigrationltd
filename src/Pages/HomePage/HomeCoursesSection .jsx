@@ -90,12 +90,6 @@ const HomeCoursesSection = () => {
                 <p className="text-sm text-gray-600 group-hover:text-white">
                   {service.description}
                 </p>
-                <a
-                  href="#"
-                  className="mt-3 inline-block text-blue-500 font-semibold hover:underline group-hover:text-white"
-                >
-                  Read More <span className="ml-1">➜</span>
-                </a>
               </div>
             </div>
           ))}
@@ -126,7 +120,9 @@ const HomeCoursesSection = () => {
               Your Global Partner in Immigration & Education
             </h2>
             <p className="text-gray-600 mb-6">
-              At Universal Immigration, we specialize in personalized visa consulting, study abroad support, and test prep coaching to help individuals and families achieve their global migration dreams.
+              At Universal Immigration, we specialize in personalized visa
+              consulting, study abroad support, and test prep coaching to help
+              individuals and families achieve their global migration dreams.
             </p>
 
             <div className="flex gap-10 mb-6">
@@ -158,10 +154,6 @@ const HomeCoursesSection = () => {
                 End-to-End Application Help
               </li>
             </ul>
-
-            <button className="bg-blue-500 text-white font-semibold px-6 py-3 rounded hover:bg-gray-700 transition duration-200">
-              Learn More →
-            </button>
           </div>
         </div>
       </section>

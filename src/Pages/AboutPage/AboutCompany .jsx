@@ -61,10 +61,6 @@ const AboutCompany = () => {
               99% Visa Approvals
             </li>
           </ul>
-
-          <button className="bg-blue-500 text-white font-semibold px-6 py-3 rounded hover:bg-gray-700 transition duration-200">
-            About Us →
-          </button>
         </div>
       </div>
     </section>

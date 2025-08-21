@@ -79,9 +79,6 @@ const AboutSevices = () => {
               Transmds is the world’s driving worldwide exchange the worldwide
               trade of
             </p>
-            <button className="bg-white text-black font-semibold px-6 py-3 rounded shadow hover:bg-gray-100 transition">
-              Explore Our Service →
-            </button>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div className="flex flex-col items-center text-center py-6 px-4 rounded-lg shadow">

@@ -1,6 +1,6 @@
 import React from "react";
 import heroBgImage from "../../assets/hero/e813e040-6fa5-42ea-8b94-d4adb0288c35.jpg";
-import HomeCoursesSection from '../../Pages/HomePage/HomeCoursesSection '
+import HomeCoursesSection from "../../Pages/HomePage/HomeCoursesSection ";
 
 const Hero = () => {
   return (
@@ -17,20 +17,12 @@ const Hero = () => {
             EXPERT IMMIGRATION & VISA SOLUTIONS
           </p>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-            Unlock Your Global Future <br /> with Universal Immigration
+            Unlock Your Global Future with Universal Immigration
           </h1>
           <p className="mt-4 text-lg text-gray-200">
-            Study, work, visit, or settle abroad — your dream is our mission.
-            We simplify complex immigration processes with expert guidance.
+            Study, work, visit, or settle abroad — your dream is our mission. We
+            simplify complex immigration processes with expert guidance.
           </p>
-          <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="bg-blue-500 hover:bg-blue-500 transition-colors duration-300 px-6 py-3 rounded-md text-white font-semibold">
-              Get Free Consultation
-            </button>
-            <button className="bg-transparent border border-white hover:bg-white hover:text-black transition-colors duration-300 px-6 py-3 rounded-md text-white font-semibold">
-              Explore Services
-            </button>
-          </div>
         </div>
       </div>
 
@@ -40,9 +32,9 @@ const Hero = () => {
           Why Choose Universal Immigration?
         </h2>
         <p className="max-w-3xl mx-auto text-gray-600 mb-8">
-          With years of experience, a global client base, and a team of certified consultants,
-          we provide tailoblue immigration pathways for students, skilled workers,
-          entrepreneurs, and families.
+          With 4 years of experience, a global client base, and a team of
+          certified consultants, we provide tailoblue immigration pathways for
+          students, skilled workers, entrepreneurs, and families.
         </p>
         <div className="flex flex-wrap justify-center gap-6">
           {[

@@ -1,12 +1,11 @@
 import { FaFacebookF, FaTwitter, FaVimeoV, FaLinkedinIn } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import logo from '../../assets/hero/logo.png';
+import logo from "../../assets/hero/logo.png";
 
 const Footer = () => {
   return (
     <footer className="bg-[#15161a] text-white py-16">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-center md:text-left">
-
         {/* Logo and Description */}
         <div>
           <div className="flex justify-center md:justify-start items-center mb-4">
@@ -22,7 +21,9 @@ const Footer = () => {
             </NavLink>
           </div>
           <p className="text-gray-400 mb-6">
-            Empowering your global dreams with trusted immigration solutions for study, work, and permanent residency in Canada, Australia, the UK, and beyond.
+            Empowering your global dreams with trusted immigration solutions for
+            study, work, and permanent residency in Canada, Australia, the UK,
+            and beyond.
           </p>
 
           {/* Social Icons */}
@@ -31,7 +32,7 @@ const Footer = () => {
               { href: "https://www.facebook.com", icon: <FaFacebookF /> },
               { href: "https://www.twitter.com", icon: <FaTwitter /> },
               { href: "https://www.vimeo.com", icon: <FaVimeoV /> },
-              { href: "https://www.linkedin.com", icon: <FaLinkedinIn /> }
+              { href: "https://www.linkedin.com", icon: <FaLinkedinIn /> },
             ].map((social, index) => (
               <a
                 key={index}
@@ -56,9 +57,12 @@ const Footer = () => {
               "Study Visa Assistance",
               "Work Permit Solutions",
               "Tourist & Visitor Visas",
-              "Citizenship Applications"
+              "Citizenship Applications",
             ].map((service, index) => (
-              <li key={index} className="flex justify-center md:justify-start items-center space-x-2 hover:text-blue-500 cursor-pointer">
+              <li
+                key={index}
+                className="flex justify-center md:justify-start items-center space-x-2 hover:text-blue-500 cursor-pointer"
+              >
                 <span>»</span>
                 <span>{service}</span>
               </li>
@@ -70,15 +74,14 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-bold mb-4">Contact Us</h2>
           <p className="text-gray-400 mb-2">
-            Phone: <br /> +1 (800) 123-4567
+            Phone: <br /> +917087107698
           </p>
           <p className="text-gray-400 mb-2">
             Email: <br /> support@universalimmigration.com
           </p>
           <p className="text-gray-400">
-            Address: <br />
-            456 Global Avenue, Suite 210<br />
-            Toronto, ON, Canada
+            Address: <br />A -301, PINNACLE APPT NEAR PASHWANATH METRO CITY , C,
+            Ahmednagar, India Gujarat
           </p>
         </div>
 
@@ -86,7 +89,8 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-bold mb-4">Subscribe to Updates</h2>
           <p className="text-gray-400 mb-4">
-            Get the latest updates on visa news, immigration changes, and program openings.
+            Get the latest updates on visa news, immigration changes, and
+            program openings.
           </p>
           <input
             type="email"
@@ -97,7 +101,6 @@ const Footer = () => {
             Subscribe Now
           </button>
         </div>
-
       </div>
     </footer>
   );

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { FaAngleDown, FaAngleRight, FaBars } from "react-icons/fa";
-import logo from "../../assets/hero/logo.png"
+import logo from "../../assets/hero/logo.png";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
@@ -11,7 +11,7 @@ const Navbar = () => {
     { label: "About", path: "/about" },
     { label: "Visa", path: "/visa" },
     { label: "Pages", path: "/page" },
-    { label: "Blog", path: "/blog" },
+    // { label: "Blog", path: "/blog" },
     { label: "Contact", path: "/contact" },
   ];
 
@@ -20,16 +20,15 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <NavLink to="/" className="flex items-center space-x-3">
-  <img
-    src={logo}
-    alt="Walshken Immigration Logo"
-    className="h-10 w-auto object-contain"
-  />
-  <h1 className="text-xl font-bold">
-    Universal<span className="text-blue-500">Immigration</span>
-  </h1>
-</NavLink>
-
+          <img
+            src={logo}
+            alt="Walshken Immigration Logo"
+            className="h-10 w-auto object-contain"
+          />
+          <h1 className="text-xl font-bold">
+            Universal<span className="text-blue-500">Immigration</span>
+          </h1>
+        </NavLink>
 
         {/* Desktop Menu */}
         <nav className="hidden lg:flex space-x-6 items-center">

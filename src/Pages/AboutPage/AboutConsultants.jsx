@@ -10,49 +10,49 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import AboutImage5 from "../../assets/hero/AboutImage5.jpg";
 import AboutImage3 from "../../assets/hero/AboutImage3.jpg";
 import AboutImage4 from "../../assets/hero/AboutImage4.jpg";
-const testimonials = [
-  {
-    id: 1,
-    rating: 4,
-    title: "Quality Services",
-    feedback:
-      "creative agency, we believe in the Eid and innovation. We are constantly melt of what is possible, and strive to cat only beautiful and effective, but shark inventore veritatis et quasi architecto beatae vitae dicta sunt atlantic",
-  },
-  {
-    id: 2,
-    rating: 3,
-    title: "Client-Focused Support",
-    feedback:
-      "Our support team is always ready to help, offering quick responses and effective solutions. Whether you need assistance with documentation or follow-up services, we’re here for you every step of the way.",
-  },
-];
-const consultants = [
-  {
-    name: "Devid Miller",
-    title: "Consultant",
-    img: AboutImage4,
-  },
-  {
-    name: "Ritu Ratia",
-    title: "Consultant",
-    img: AboutImage5,
-  },
-  {
-    name: "Shikhon Islam",
-    title: "Consultant",
-    img: AboutImage3,
-  },
-  {
-    name: "Sonsil Macron",
-    title: "Consultant",
-    img: AboutImage4,
-  },
-];
+// const testimonials = [
+//   {
+//     id: 1,
+//     rating: 4,
+//     title: "Quality Services",
+//     feedback:
+//       "creative agency, we believe in the Eid and innovation. We are constantly melt of what is possible, and strive to cat only beautiful and effective, but shark inventore veritatis et quasi architecto beatae vitae dicta sunt atlantic",
+//   },
+//   {
+//     id: 2,
+//     rating: 3,
+//     title: "Client-Focused Support",
+//     feedback:
+//       "Our support team is always ready to help, offering quick responses and effective solutions. Whether you need assistance with documentation or follow-up services, we’re here for you every step of the way.",
+//   },
+// ];
+// const consultants = [
+//   {
+//     name: "Devid Miller",
+//     title: "Consultant",
+//     img: AboutImage4,
+//   },
+//   {
+//     name: "Ritu Ratia",
+//     title: "Consultant",
+//     img: AboutImage5,
+//   },
+//   {
+//     name: "Shikhon Islam",
+//     title: "Consultant",
+//     img: AboutImage3,
+//   },
+//   {
+//     name: "Sonsil Macron",
+//     title: "Consultant",
+//     img: AboutImage4,
+//   },
+// ];
 
 const AboutConsultants = () => {
   return (
     <>
-      <section className="bg-[#151515] py-16 text-white">
+      {/* <section className="bg-[#151515] py-16 text-white">
         <div className="max-w-7xl mx-auto text-center px-4">
           <p className="uppercase text-blue-500 font-semibold  mb-2">
             Professional People
@@ -96,8 +96,8 @@ const AboutConsultants = () => {
           </div>
         </div>
         4
-      </section>
-      <div className="py-16 px-4 md:px-10 bg-white">
+      </section> */}
+      {/* <div className="py-16 px-4 md:px-10 bg-white">
         <div className="text-center mb-12">
           <h4 className="text-blue-500 font-semibold uppercase mb-2 tracking-wide">
             Our Testimonials
@@ -133,7 +133,7 @@ const AboutConsultants = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
       <section className="font-sans">
         <div className="relative bg-blue-700 text-white py-20 px-4 md:px-16 overflow-hidden">
           <div className="absolute inset-0 opacity-30 bg-cover bg-center bg-[url('/path-to-your-background-image.jpg')] z-0"></div>
@@ -158,7 +158,7 @@ const AboutConsultants = () => {
               </div>
               <div>
                 <p className="text-gray-300 text-sm">Call Us 24/7</p>
-                <p className="font-bold text-lg text-white">+1 718-904-4450</p>
+                <p className="font-bold text-lg text-white">+917087107698</p>
               </div>
             </div>
 
@@ -169,7 +169,7 @@ const AboutConsultants = () => {
               <div>
                 <p className="text-gray-300 text-sm">Make a Quote</p>
                 <p className="font-bold text-lg text-white">
-                  info@visaland.com
+                  support@universalimmigration.com
                 </p>
               </div>
             </div>
@@ -181,7 +181,8 @@ const AboutConsultants = () => {
               <div>
                 <p className="text-gray-300 text-sm">Location</p>
                 <p className="font-bold text-lg text-white">
-                  123 Main St, City, Country
+                  A -301, PINNACLE APPT NEAR PASHWANATH METRO CITY , C,
+                  Ahmednagar, India Gujarat
                 </p>
               </div>
             </div>
