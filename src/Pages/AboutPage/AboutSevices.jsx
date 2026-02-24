@@ -111,7 +111,7 @@ import Studentvisa from "../../assets/hero/studentVisa.jpg";
 import BusinessVisa from "../../assets/hero/BusinessVisa.jpg";
 import WorkVisa from "../../assets/hero/WorkVisa.jpg";
 import TouristVisa from "../../assets/hero/TouristVisa.jpg";
-import CEOImage from "../../assets/hero/chirag.jpeg"; // Add CEO Image
+import CEOImage from "../../assets/hero/chriag.jpeg"; // Add CEO Image
 
 const services = [
   {
