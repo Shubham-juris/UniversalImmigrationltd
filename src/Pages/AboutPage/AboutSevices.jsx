@@ -159,7 +159,7 @@ const AboutSevices = () => {
           {/* CEO Content */}
           <div>
             <p className="text-blue-500 font-semibold uppercase text-sm mb-2">
-              Meet Our CEO
+              Meet Our Team
             </p>
 
             <h2 className="text-4xl font-bold mb-4">
@@ -167,7 +167,7 @@ const AboutSevices = () => {
             </h2>
 
             <p className="text-sm font-medium text-gray-600 mb-4">
-              CEO & Founder
+              CEO
             </p>
 
             <p className="text-gray-700 mb-6 leading-relaxed">
