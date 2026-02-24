@@ -181,7 +181,7 @@ const AboutSevices = () => {
             </p>
 
             <div className="bg-white shadow-md rounded-lg p-4 border-l-4 border-blue-500">
-              <h4 className="font-semibold text-lg mb-2">Office Address</h4>
+              <h4 className="font-semibold text-lg mb-2">Address</h4>
               <p className="text-gray-600 text-sm">
                 Vishkarma Colony <br />
                 Near Punjab National Bank <br />
