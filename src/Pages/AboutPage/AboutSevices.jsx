@@ -139,28 +139,28 @@ const services = [
     image: TouristVisa,
   },
   {
-    title: "📣 Influencer Marketing",
+    title: "Influencer Marketing",
     description:
       "We connect brands with powerful social media influencers to promote products, increase visibility, and reach targeted audiences across platforms like Instagram, TikTok, and YouTube.",
     image:
       "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "⭐ Personal Brand Development",
+    title: "Personal Brand Development",
     description:
       "Our experts help individuals build a strong personal brand online by improving their social media presence, optimizing profiles, and creating a consistent identity that attracts opportunities and followers.",
     image:
       "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "🚀 Social Media Growth Strategy",
+    title: "Social Media Growth Strategy",
     description:
       "We design data-driven social media strategies to grow your audience, increase engagement, and position your brand as an authority in your industry across all major platforms.",
     image:
       "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
   },
   {
-    title: "📈 Personal Ranking & Online Visibility",
+    title: "Personal Ranking & Online Visibility",
     description:
       "Our team helps improve your online presence through SEO optimization, digital reputation management, and strategic content marketing to ensure you rank higher and get noticed online.",
     image:
