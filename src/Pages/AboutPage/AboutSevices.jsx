@@ -138,6 +138,34 @@ const services = [
       "Planning a vacation abroad? Our Tourist Visa services ensure all your documentation is in place — from application support to travel tips — so you can enjoy a stress-free and memorable travel experience.",
     image: TouristVisa,
   },
+  {
+    title: "📣 Influencer Marketing",
+    description:
+      "We connect brands with powerful social media influencers to promote products, increase visibility, and reach targeted audiences across platforms like Instagram, TikTok, and YouTube.",
+    image:
+      "https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    title: "⭐ Personal Brand Development",
+    description:
+      "Our experts help individuals build a strong personal brand online by improving their social media presence, optimizing profiles, and creating a consistent identity that attracts opportunities and followers.",
+    image:
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    title: "🚀 Social Media Growth Strategy",
+    description:
+      "We design data-driven social media strategies to grow your audience, increase engagement, and position your brand as an authority in your industry across all major platforms.",
+    image:
+      "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    title: "📈 Personal Ranking & Online Visibility",
+    description:
+      "Our team helps improve your online presence through SEO optimization, digital reputation management, and strategic content marketing to ensure you rank higher and get noticed online.",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+  },
 ];
 
 const AboutSevices = () => {
